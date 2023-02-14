@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { IconAirBalloon } from '@tabler/icons-react';
+
 export default function Home() {
   return (
     <>
@@ -9,7 +11,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex h-screen w-full items-center justify-center">
+      <main className="flex h-screen w-full items-center justify-center gap-4">
+        <IconAirBalloon className="h-12 w-12 " />
         <h1 className="text-4xl font-bold">Hello, world!</h1>
       </main>
     </>
