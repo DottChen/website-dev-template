@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex h-screen w-full items-center justify-center gap-4">
-        <IconAirBalloon className="h-12 w-12 " />
+        <IconAirBalloon className="h-12 w-12" />
         <h1 className="text-4xl font-bold">Hello, world!</h1>
       </main>
     </>
